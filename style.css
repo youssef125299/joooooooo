@@ -1,0 +1,43 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f4f4f4;
+}
+.card {
+  width: 350px;
+  background: #2f2f2f;
+  color: #fff;
+  padding: 15px;
+  border-radius: 25px;
+}
+.search {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.search input {
+  border: none;
+  outline: none;
+  background: #222222;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 30px;
+  width: 500px;
+}
+
+.search button {
+  width: 90px;
+  height: 40px;
+  border: none;
+  border-radius: 50px;
+  background: #222222;
+  color: white;
+}
+
+.clear-sky {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
